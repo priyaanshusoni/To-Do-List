@@ -1,0 +1,118 @@
+/* Centering the container */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light background for good contrast */
+  }
+  
+  .todo-list {
+    background-color: #fff; /* White background for the to-do list */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .todo-list h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color for good contrast */
+  }
+  
+  .todo-list form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .todo-list input {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #000; /* Black background for the input box */
+    color: #fff; /* White text color */
+  }
+  
+  .todo-list button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #007bff; /* Blue button */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .todo-list button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .filters {
+    margin-bottom: 20px;
+  }
+  
+  .filters button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #6c757d; /* Gray filter buttons */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .filters button:hover {
+    background-color: #5a6268; /* Darker gray on hover */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9; /* Light gray for tasks */
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: #000; /* Black text color for tasks */
+  }
+  
+  li:hover {
+    background-color: #f1f1f1; /* Slightly darker gray on hover */
+  }
+  
+  li.completed span {
+    text-decoration: line-through;
+    color: #888; /* Gray color for completed tasks */
+  }
+  
+  li button {
+    background-color: #dc3545; /* Red remove button */
+    color: #fff;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  li button:hover {
+    background-color: #c82333; /* Darker red on hover */
+  }
+  
